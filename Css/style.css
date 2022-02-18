@@ -1,0 +1,26 @@
+/* root */
+* {
+  font-family: "Roboto", sans-serif;
+}
+/* body */
+body {
+  background-color: rgb(36, 29, 80);
+}
+input {
+  background-color: #dcdcdc;
+  font-weight: 600;
+  padding: 3px 10px;
+  border: none;
+  outline: none;
+}
+.calc-sec {
+  background-color: #f8f8f8;
+}
+.error {
+  color: red;
+  visibility: hidden;
+}
+#calculate,
+#save {
+  border: 2px solid transparent;
+}
